@@ -53,7 +53,7 @@ app.listen(process.env.PORT || 3000, function () {
     console.log('Running Tests...');
     setTimeout(function () {
       try {
-        runner.run();
+        //runner.run();
       } catch(e) {
         let error = e;
           console.log('Tests are not valid:');
